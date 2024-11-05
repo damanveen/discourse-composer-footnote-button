@@ -1,2 +1,5 @@
 en:
-  toggle_anonymous_mode: "Toggle Anonymous Mode"
+  site_settings:
+    anonymous_mode_button_icon: "Icon used for the anonymous mode toggle button."
+    put_in_popup_menu: "Add the anonymous mode button to the popup options menu. Uncheck this to put it in the toolbar section."
+    anonymous_mode_button_group: "Position of the anonymous mode toggle button in the composer."
