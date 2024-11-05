@@ -1,20 +1,23 @@
-composer_footnote_button_icon:
+anonymous_mode_button_icon:
   type: string
-  default: "superscript"
-  description: "Change footnote button icon."
-svg_icons: 
-  default: "superscript"
+  default: "user-secret"
+  description: "Icon used for the anonymous mode toggle button."
+
+svg_icons:
+  default: "user-secret"
   type: "list"
   list_type: "compact"
-  description: "List of FontAwesome 5 icons used in this theme component."
+  description: "List of FontAwesome 5 icons used in this plugin."
+
 put_in_popup_menu:
   type: bool
   default: true
-  description: "Add the footnote button to popup options menu. Uncheck this to put it to toolbar section."  
-composer_footnote_button_group:
+  description: "Add the anonymous mode button to the popup options menu. Uncheck this to put it in the toolbar section."
+
+anonymous_mode_button_group:
   default: insertions
   type: enum
   choices:
     - fontStyles
     - extras
-  description: "Change footnote button group position."
+  description: "Position of the anonymous mode toggle button in the composer."
